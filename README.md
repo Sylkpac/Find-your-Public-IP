@@ -5,6 +5,11 @@ The internet works like a giant network of connected computers. Your computer ne
 * **Public IP Address:** This unique identifier, assigned by your internet service provider (ISP), acts like your house address on the internet. Websites and services use it to find your computer.
 * **Private IP Address:** This address is used within your local network, like a street address within your neighborhood. Other devices connected to your network (like your phone or printer) have private IP addresses.
 
+## Why Cloud Security Engineers know this? 
+* **Public IPs** are used to connect your systems to the outside world, making them vulnerable if not properly secured.
+* **Private IPs** are used for internal network communications and help keep your sensitive resources isolated.
+Understanding and managing both public and private IPs is crucial in cloud security engineering to ensure secure, controlled access and communications between systems while minimizing exposure to external threats.
+
 ### Finding Your Public IP Address
 
 Here's how to uncover your public IP address on different operating systems:
@@ -27,7 +32,4 @@ Here's how to uncover your public IP address on different operating systems:
 The command ipconfig getifaddr en0 is specific to macOS and might not be applicable on all systems. It's generally recommended to stick with curl ifconfig.me for a simpler and more universal approach to finding your public IP address.
 Now you know how to unveil your public IP address, 
 
-## Why Cloud Security Engineers know this? 
-* **Public IPs** are used to connect your systems to the outside world, making them vulnerable if not properly secured.
-* **Private IPs** are used for internal network communications and help keep your sensitive resources isolated.
-Understanding and managing both public and private IPs is crucial in cloud security engineering to ensure secure, controlled access and communications between systems while minimizing exposure to external threats.
+
