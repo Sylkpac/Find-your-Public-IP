@@ -1,4 +1,4 @@
-## Finding Your Public IP Address
+# Finding Your Public IP Address
 
 The internet works like a giant network of connected computers. Your computer needs an address to communicate with others online, and there are two main types:
 
@@ -18,7 +18,7 @@ Here's how to uncover your public IP address on different operating systems:
 
 **1. Open Command Prompt:** Press the _**Windows key + R**_, type _**cmd**_, and press _**Enter**_.  
 
-**2. Use ipconfig:** Type _**ipconfig**_ and press _**Enter**_. Look for "IPv4 Address" under your 'network adapter'. This is your private IP address, not the public one.
+**2. Use ipconfig:** Type _**ipconfig**_ and press _**Enter**_. Look for 'IPv4 Address' under your 'network adapter'. This is your private IP address, not the public one.
 
 ### Finding Your Public IP with Linux/macOS:  
 
@@ -29,7 +29,7 @@ Here's how to uncover your public IP address on different operating systems:
 **2. Use curl:** Type _**curl ifconfig.me**_ and press _**Enter**_. The response displayed is your public IP address. This command sends a request to a web service that reveals the _public IP_ of the incoming request.
 
 ## Private IP Note:
-The command ipconfig getifaddr en0 is specific to macOS and might not be applicable on all systems. It's generally recommended to stick with curl ifconfig.me for a simpler and more universal approach to finding your public IP address.
-Now you know how to unveil your public IP address, 
+It's generally recommended to stick with curl _**ifconfig.me**_ for a simpler and more universal approach to finding your public IP address.
+Now you know how to unveil your public IP address, a vital piece of information for various online interactions!
 
 
