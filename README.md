@@ -24,12 +24,13 @@ Here's how to uncover your public IP address on different operating systems:
 
 **1. Open Terminal:**
 * **Linux:** Locate Terminal in your applications menu.
-* **macOS:** Open Spotlight search (Cmd + Space), type Terminal, and press _**Enter**_.
+* **macOS:** Open Spotlight search _**(Cmd + Space)**_, type _**Terminal**_, and press _**Enter**_.
 
 **2. Use curl:** Type _**curl ifconfig.me**_ and press _**Enter**_. The response displayed is your public IP address. This command sends a request to a web service that reveals the _public IP_ of the incoming request.
 
 ## Private IP Note:
-It's generally recommended to stick with curl _**ifconfig.me**_ for a simpler and more universal approach to finding your public IP address.
+It's generally recommended to stick with curl _**ifconfig.me**_ for a simpler and more universal approach to finding your public IP address.  
+
 Now you know how to unveil your public IP address, a vital piece of information for various online interactions!
 
 
