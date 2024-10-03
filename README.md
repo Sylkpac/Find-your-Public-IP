@@ -18,7 +18,7 @@ Understanding and managing both public and private IPs is crucial in cloud secur
 
 **2. Use ipconfig:** Type _**ipconfig**_ and press _**Enter**_. Look for 'IPv4 Address' under'Wi-Fi' or 'Ethernet'. This is your _private IP_ address.
 
-**3. Open Command Prompt. Type: _**nslookup myip.opendns.com resolver1.opendns.com**_
+**3. Open Command Prompt. Type:** _**nslookup myip.opendns.com resolver1.opendns.com**_
 Your public IP will appear under 'Address'.
 
 ### Finding Your Public IP with Linux/macOS:  
