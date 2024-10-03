@@ -12,22 +12,22 @@ Understanding and managing both public and private IPs is crucial in cloud secur
 
 ### Finding Your Public and Private IP Address for Windows:
 
-**1. Open Command Prompt:** Press the _**Windows key + R**_, type _**cmd**_, and press _**Enter**_.  
+1. Open Command Prompt: Press the _**Windows key + R**_, type _**cmd**_, and press _**Enter**_.  
 
-**2. Use ipconfig:** Type _**ipconfig**_ and press _**Enter**_. Look for 'IPv4 Address' under'Wi-Fi' or 'Ethernet'. This is your _private IP_ address.
+2. Use ipconfig: Type _**ipconfig**_ and press _**Enter**_. Look for 'IPv4 Address' under'Wi-Fi' or 'Ethernet'. This is your _private IP_ address.
 
-**3. Open Command Prompt. Type:** _**nslookup myip.opendns.com resolver1.opendns.com**_
+3. Open Command Prompt. Type: _**nslookup myip.opendns.com resolver1.opendns.com**_
 Your public IP will appear under 'Address'.
 
 ### Finding Your Public IP for Linux/macOS:  
 
-**1. Open Terminal:**
+1. Open Terminal:
 * **Linux:** Locate Terminal in your applications menu.
 * **macOS:** Open Spotlight search _**(Cmd + Space)**_, type _**Terminal**_, and press _**Enter**_.
 
-**2.** type _**hostname -I**_ This will show your private IP address.
+2. type _**hostname -I**_ This will show your private IP address.
 
-**3.** Type _**curl ifconfig.me**_ and press _**Enter**_. The response displayed is your public IP address. This command sends a request to a web service that reveals the _public IP_ of the incoming request.
+3. Type _**curl ifconfig.me**_ and press _**Enter**_. The response displayed is your public IP address. This command sends a request to a web service that reveals the _public IP_ of the incoming request.
 
 Now you know how to unveil your public IP address, a vital piece of information for various online interactions!
 
