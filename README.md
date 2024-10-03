@@ -26,3 +26,8 @@ Here's how to uncover your public IP address on different operating systems:
 ## Private IP Note:
 The command ipconfig getifaddr en0 is specific to macOS and might not be applicable on all systems. It's generally recommended to stick with curl ifconfig.me for a simpler and more universal approach to finding your public IP address.
 Now you know how to unveil your public IP address, 
+
+## Why Cloud Security Engineers know this? 
+* **Public IPs** are used to connect your systems to the outside world, making them vulnerable if not properly secured.
+* **Private IPs** are used for internal network communications and help keep your sensitive resources isolated.
+Understanding and managing both public and private IPs is crucial in cloud security engineering to ensure secure, controlled access and communications between systems while minimizing exposure to external threats.
