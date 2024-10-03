@@ -10,9 +10,7 @@ The internet works like a giant network of connected computers. Your computer ne
 * **Private IPs** are used for internal network communications and help keep your sensitive resources isolated.
 Understanding and managing both public and private IPs is crucial in cloud security engineering to ensure secure, controlled access and communications between systems while minimizing exposure to external threats.
 
-### Finding Your Public and Private IP Address
-
-**Windows:**
+### Finding Your Public and Private IP Address for Windows:
 
 **1. Open Command Prompt:** Press the _**Windows key + R**_, type _**cmd**_, and press _**Enter**_.  
 
@@ -21,7 +19,7 @@ Understanding and managing both public and private IPs is crucial in cloud secur
 **3. Open Command Prompt. Type:** _**nslookup myip.opendns.com resolver1.opendns.com**_
 Your public IP will appear under 'Address'.
 
-### Finding Your Public IP with Linux/macOS:  
+### Finding Your Public IP for Linux/macOS:  
 
 **1. Open Terminal:**
 * **Linux:** Locate Terminal in your applications menu.
